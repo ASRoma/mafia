@@ -1,0 +1,84 @@
+.titoli {
+    height: 200px;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red, blue);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, blue);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, blue);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red, blue);
+    /* Standard syntax (must be last) */
+}
+
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.titoli h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Montserrat;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 80;
+    color: white;
+}
+
+.didascalia {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    color: black;
+}
+
+.grafico {
+    margin-top: 40px;
+    background: url(img/etna.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+}
+
+.testo {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 80;
+    color: white;
+}
+
+.thumbnail {
+    align-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+}
+
+.catania {
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bottone {
+    margin: 20px 90px;
+}
+
+.col-xs-5 {
+    margin-top: 80px;
+}
